@@ -4,6 +4,7 @@
     color: #ffffff;
 }
 h2 {
+    font-size: 40px;
     padding: 5px;
     background-color: #607d8b;
     color: #ffffff
@@ -21,4 +22,8 @@ td {
     background-color: #e8f1f2;
     color: #000000;
     font-size: 30px;
+}
+p {
+    font-size: 25px;
+    color: #ffffff;
 }
