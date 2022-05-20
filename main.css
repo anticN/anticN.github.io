@@ -1,6 +1,7 @@
 .title {
+    background-color: #13293d;
     font-size: 65px;
-    color: green;
+    color: #ffffff;
 }
 h2 {
     padding: 5px;
@@ -8,3 +9,16 @@ h2 {
     color: #ffffff
 }
 
+body {
+    background-color: #006494;
+}
+
+table {
+    background-color: #1b98e0;
+}
+td {
+    padding: 5px;
+    background-color: #e8f1f2;
+    color: #000000;
+    font-size: 30px;
+}
