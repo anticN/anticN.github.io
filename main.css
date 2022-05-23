@@ -27,3 +27,15 @@ p {
     font-size: 25px;
     color: #ffffff;
 }
+
+button {
+    width: 150px;
+    height: 75px;
+    font-size: 25px;
+    background-color: #1b98e0;
+    color:#e8f1f2;
+}
+.button {
+    text-decoration: none;
+    color: white;
+}
