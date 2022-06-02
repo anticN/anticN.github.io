@@ -1,6 +1,6 @@
 .title {
     background-color: #13293d;
-    font-size: 65px;
+    font-size: 55px;
     color: #ffffff;
 }
 h2 {
@@ -38,4 +38,8 @@ button {
 .button {
     text-decoration: none;
     color: white;
+}
+ul {
+    color: white;
+    font-size: 25px;
 }
