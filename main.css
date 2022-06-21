@@ -43,3 +43,42 @@ ul {
     color: white;
     font-size: 25px;
 }
+#webseite {
+	width: 1920px;
+	height: 1080px;
+    margin: 0 auto;
+}
+#kopfbody{
+    background-color: #13293d;
+    padding-left: 0;
+}
+#kopf {
+	width: auto;
+	height: auto;
+    background-color: #13293d;
+}
+#menue {
+	width: 175px;
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+#inhalt {
+	width: 790px;
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+#fuss{
+	width: 975px;
+	height: 60px;
+	clear: both;
+}
+object{
+	width: 100%;
+	height: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
