@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="/main.css">
         <link rel="icon" href="/Images/NA.jpg">
@@ -9,15 +10,23 @@
     </head>
     <body>
 
-        <table style="margin-top: 20px;"> 
-            <tr>
-              <td><a href="/">Home</a></td>
-              <td><a href="/blog/">Blog</a></td>
-              <td><a href="/Projekte/">Projekte</a></td>
-              <td><a href="/Kontakt/">Kontakt</a></td>
-            </tr>
-          </table>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                  <li><a class="nav-link" href="/index.html">Home</a></li>
+                  <li><a class="nav-link" href="/blog/index.html">Blog</a></li>
+                  <li><a class="nav-link" href="/Projekte/index.html">Projekte</a></li>
+                  <li><a class="nav-link active" href="/kontakt/Index.html">Kontakt</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
           
+    <div class="container">
         <h1 class = "title">Kontakt</h1>
         
         <h2 style="font-size: 30px;">Meine Kontaktdaten und verlinkte Konten:</h2>
@@ -38,6 +47,7 @@
                 <td>LinkedIn</td>
             </tr>
         </table>
+    </div>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
