@@ -82,3 +82,9 @@ object{
     border-style: solid;
     border-width: 1px;
 }
+footer{
+    background-color: #607d8b;
+}
+.checkboxPage{
+   padding: 0 0.5cm; 
+}

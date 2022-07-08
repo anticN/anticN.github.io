@@ -1,3 +1,8 @@
+<?php
+  include_once './zusatz/dbh.inc.php'
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,8 +52,8 @@
                 <td>LinkedIn</td>
             </tr>
         </table>
-
-        <form action="">
+$conn;
+        <form action="$conn;">
           <p>Bei irgendwelchen Anliegen, können Sie mir hier gerne eine Nachricht schreiben.<br> Ich werde so schnell wie möglich darauf
             antworten.
           </p>
