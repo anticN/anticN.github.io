@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -44,41 +45,43 @@
                 <td><a href="https://github.com/anticN" title="Mein Github" target="_blank"><img src=  /Images/gitlogo.PNG style="width: 8%;" alt="Github"> Github Konto</a></td>
             </tr>
             <tr>
-                <td>LinkedIn</td>
+                <td><a href="https://www.linkedin.com/in/nikola-antic-29457b249/" title="Mein LinkedIn" target="_blank" >LinkedIn</a></td>
             </tr>
         </table>
 
-        <form action="">
+      <fieldset>
+        <form name="frmKontakt" method="post" action="kontakt.php">
           <p>Bei irgendwelchen Anliegen, können Sie mir hier gerne eine Nachricht schreiben.<br> Ich werde so schnell wie möglich darauf
             antworten.
           </p>
           <p><label>Name:</label><br>
-            <input type="text" name="name" maxlength="50" size="30" required>
+            <input type="text" name="name" id="name" maxlength="50" size="30" required>
           </p>
           <p><label>Vorname:</label><br>
-            <input type="text" name="vorname" maxlength="50" size="30" required>
+            <input type="text" name="vorname" id="vorname" maxlength="50" size="30" required>
           </p>
           <p><label>E-Mail:</label><br>
-            <input type="email" name="email" maxlength="50" size="30" required>
+            <input type="email" name="email" id="email" maxlength="50" size="30" required>
           </p>
           <p class="checkboxPage"><label>Wie sind Sie auf meine Seite gestossen?</label><br>
-            <input type="checkbox" name="aufSeite_1" value="github">Github
-            <input type="checkbox" name="aufSeite_2" value="linkedin">LinkedIn
-            <input type="checkbox" name="aufSeite_3" value="visitenkarte">Visitenkarte
-            <input type="checkbox" name="aufSeite_4" value="bekannte">Bekannte
-            <input type="checkbox" name="aufSeite_5" value="divers">Divers
+            <input type="checkbox" name="aufSeite_1" id="aufSeite_1" value="github">Github
+            <input type="checkbox" name="aufSeite_2" id="aufSeite_2" value="linkedin">LinkedIn
+            <input type="checkbox" name="aufSeite_3" id="aufSeite_3" value="visitenkarte">Visitenkarte
+            <input type="checkbox" name="aufSeite_4" id="aufSeite_4" value="bekannte">Bekannte
+            <input type="checkbox" name="aufSeite_5" id="aufSeite_5" value="divers">Divers
           </p>
           <p><label>Ihre Nachricht:</label><br>
-            <textarea name="nachricht" rows="6" cols="50" required></textarea>
+            <textarea name="nachricht" id="nachricht" rows="6" cols="50" required></textarea>
           </p>
           <p>
-            <input type="submit" name="ok" value="Versenden" />
-            <input type="reset" name="loeschen" value="Löschen" />
+            <input type="submit" name="ok" id="ok" value="Versenden" />
+            <input type="reset" name="loeschen" id="loeschen" value="Löschen" />
           </p>
         </form>
+      </fieldset>
     </div>
         
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
